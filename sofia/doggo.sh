@@ -25,7 +25,7 @@ fi
 lengthOfName="${#name}"
 if test "${lengthOfName}" -gt 10
 then
-    ech "See on pikk nimi."
+    echo "See on pikk nimi."
 elif test "${lengthOfName}" -gt 5
 then
     echo "See on keskmise pikkusega nimi."
